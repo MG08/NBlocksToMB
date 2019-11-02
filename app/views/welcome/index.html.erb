@@ -38,22 +38,22 @@
       <div class="circle circle-10 bg-danger rotate-circle"></div>
 	</div>
 
-<div class="container">
+<div style="margin: 3%;">
 	  
 <div style="width:100%; margin:0 auto;">
 
 <div class="row center-xs">
   <div class="col-xs-12	">
-    <div id="parent" class="box" >
+    <div id="parent" class="box" style="padding-bottom:5%;" >
 
-    	<div class="div">
+    	<div class="div" style="padding-bottom:5%;">
 			<form class="form" >
 				<h3 style="padding-top:1%; padding-bottom:2%;">Blocks to MegaBytes/GigaBytes</h3>
 				<div style="display: flex; flex-direction: row; padding-left:10%;">
-				<input id="a1" type="text" value="" class="actions form-control2" placeholder="Blocks" autofocus/>
-				 <strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> Blocks  ➤ ➤ </strong> <input id="a2" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/> 
-				 <strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> MB </strong><input id="a3" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/>
-				  <strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> GB </strong>
+				<input id="a1" type="text" value="" class="actions form-control2" placeholder="Blocks" onInput="calculate();" autofocus/>
+				 <strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> Blocks  ➤ ➤ </strong> <input id="a2" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/> 
+				 <strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> MB </strong><input id="a3" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/>
+				  <strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> GB </strong>
 				</div>
 
 			</form>
@@ -61,10 +61,10 @@
 			<h3 style="padding-top:1%; padding-bottom:2%;">MegaBytes to Blocks</h3>
 			
 			<div style="display: flex; flex-direction: row; padding-left:10%;">
-			<input id="a4" type="text" value="" class="actions form-control2" placeholder="MegaBytes" /> 
-			<strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;">  MB  </strong> <input id="a5" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/>
-			 <strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> GB ➤ ➤</strong>  <input id="a6" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/> 
-			 <strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> Blocks</strong>
+			<input id="a4" type="text" value="" class="actions form-control2" placeholder="MegaBytes" onInput="calculate();" /> 
+			<strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;">  MB  </strong> <input id="a5" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/>
+			 <strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> GB ➤ ➤</strong>  <input id="a6" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/> 
+			 <strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> Blocks</strong>
 			</div>
 		</form>
 
@@ -72,17 +72,16 @@
 			<h3 style="padding-top:1%; padding-bottom:2%;">GigaBytes to Blocks</h3>
 			
 			<div style="display: flex; flex-direction: row; padding-left:10%;">
-			<input id="a7" type="text" value="" class="actions form-control2" placeholder="GigaBytes" />
-			<strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> GB </strong> <input id="a8" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/>
-			<strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> MB </strong>  ➤ ➤ <input id="a9" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/> 
-			<strong class="color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> Blocks</strong>
+			<input id="a7" type="text" value="" class="actions form-control2" placeholder="GigaBytes" onInput="calculate();" />
+			<strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> GB </strong> <input id="a8" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/>
+			<strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> MB </strong>  ➤ ➤ <input id="a9" type="text" value="Zero" class="color-box text-white actions form-control2" readonly/> 
+			<strong class="myfont color-text-in" style="padding-top:1.5%; margin-left:1%; margin-right:1%;"> Blocks</strong>
 			</div>
 		</form>
 		
 		</div>
     </div>
   </div>
-</div>
 </div>
 </div>
 </div>
