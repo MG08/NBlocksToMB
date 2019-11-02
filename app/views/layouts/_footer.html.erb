@@ -14,15 +14,26 @@
 <script  type="text/javascript">
 
 
+
         
 function calculate(){
-    console.log('this is an Input');
-    $('#a2').val($('#a1').val() /8);
-    $('#a3').val($('#a1').val() /8192);
-    $('#a5').val($('#a4').val() /1024);
-    $('#a6').val($('#a4').val() *8);
-    $('#a8').val($('#a7').val() *1024);
-	$('#a9').val($('#a7').val() *8192);
+
+	var a1= document.getElementById("a1");
+	var a2= document.getElementById("a2");
+	var a3= document.getElementById("a3");
+	var a4= document.getElementById("a4");
+	var a5= document.getElementById("a5");
+	var a6= document.getElementById("a6");
+	var a7= document.getElementById("a7");
+	var a8= document.getElementById("a8");
+	var a9= document.getElementById("a9");
+
+	a2.value=(a1.value /8);
+    a3.value=(a1.value /8192);
+    a5.value=(a4.value /1024);
+    a6.value=(a4.value *8);
+    a8.value=(a7.value *1024);
+    a9.value=(a7.value *8192);
 };
 
 	
