@@ -1,5 +1,5 @@
 <% require "browser/aliases" %>
-<% if @browser.device.mobile? %>
+<% if !@browser.device.mobile? %>
 	<% controller.redirect_to mobile_path %>
 <% end 
 %>
