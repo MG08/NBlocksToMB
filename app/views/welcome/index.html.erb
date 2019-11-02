@@ -1,16 +1,16 @@
 <% require "browser/aliases" %>
-<% if @browser.device.mobile? %>
+<% if !@browser.device.mobile? %>
 	<% controller.redirect_to mobile_path %>
 <% end 
 %>
 
 
-	<div class="page-hero bg-primary text-white" id="banner">
+<div class="page-hero bg-primary text-white" id="banner">
 	
 	<center style="padding-bottom:3rem;">
 <h1 class="title">Nintendo® Blocks to MegaBytes / GigaBytes Converter</h1>
 </center>
-		<div class="bubbles d-none d-md-block">
+	<div class="bubbles d-none d-md-block">
 <!-- 				bubbles -->
       <div class="bubble bubble-1 rotate-bubble bg-warning"></div>
       <div class="bubble bubble-2 bubble-bottom-right bg-danger rotate-bubble"></div>
@@ -36,8 +36,9 @@
       <div class="circle circle-8 bg-white rotate-circle"></div>
       <div class="circle circle-9 bg-warning rotate-circle"></div>
       <div class="circle circle-10 bg-danger rotate-circle"></div>
-		</div>
-	  <div class="container">
+	</div>
+
+<div class="container">
 	  
 <div style="width:100%; margin:0 auto;">
 
@@ -82,6 +83,4 @@
     </div>
   </div>
 </div>
-</div>
-
 </div>
