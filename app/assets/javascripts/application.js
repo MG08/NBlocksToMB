@@ -30,6 +30,7 @@ $(document).ready(function(){
 
 function calculate(e)
 {
+    console.log('this is an Input');
     $('#a2').val($('#a1').val() /8);
     $('#a3').val($('#a1').val() /8192);
     $('#a5').val($('#a4').val() /1024);
