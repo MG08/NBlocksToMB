@@ -1,4 +1,4 @@
-<% if @browser.ua=="=~ /Mobile|webOS/" %>
+<% if @browser.ua=="=~ /Mobile|webOS/"||@browser.platform.android? %>
 	<% controller.redirect_to mobile_path %>
 <% end 
 %>
